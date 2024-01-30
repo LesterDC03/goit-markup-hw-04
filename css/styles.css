@@ -1,3 +1,7 @@
+:root{
+    --CLOUD: #F4F4FD;
+    --IRIS: #4D5AE5;
+}
 *{
     margin:0;
     padding:0;
@@ -9,7 +13,7 @@ img {
     object-fit: scale-down;
 }
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     line-height: normal;
 }
 a {
@@ -21,7 +25,6 @@ li{
 }
 h1{
     font-size: 55px;
-    /* text-transform: uppercase; */
     text-align: center;
     margin: 20px;
     color: white;
@@ -139,9 +142,57 @@ div.card{
     /* box-shadow: #000000; */
 }
 h3.tag{
-    /* border: 1px dashed black; */
-    padding-bottom: 5px;
+    
+}
+h3.abt{
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 p.tag{
-    padding-top: 5px;
+    padding: 8px 0;
+}
+svg.svg{
+    width: 16px;
+    height: 16px;
+    fill: white;
+}
+div.icons{
+    background: var(--CLOUD);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li.about{
+    margin: 12px;
+}
+p.abt{
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+.soc-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.soc-link{
+    background-color: var(--IRIS) ;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+}
+h3.customers{
+    text-align: center;
+}
+.list-footer{
+    display:flex;
+    
+}
+.customers-list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.customers-list-items{
+    border: 1px solid black;
+    margin: 12px;
 }

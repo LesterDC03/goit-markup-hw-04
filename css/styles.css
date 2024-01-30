@@ -1,6 +1,7 @@
 :root{
     --CLOUD: #F4F4FD;
     --IRIS: #4D5AE5;
+    --LIGHT-SLATE: #8E8F99;
 }
 *{
     margin:0;
@@ -32,15 +33,17 @@ h1{
 
 .front {
     padding: 175px 50px 200px 50px;
-    background-color: #2E2F42;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/people-office\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     display:block;
 }
 button{
     display:block;
     margin: auto;
-    background-color: #4D5AE5;
+    background-color: var(--IRIS);
     border-style: solid;
-    border-color: #4D5AE5;
+    border-color: var(--IRIS);
     border-radius: 5px;
 }
 a.butones{
@@ -71,18 +74,18 @@ h2{
     color:white;
 }
 .web_span{
-    color:#4D5AE5;
+    color:var(--IRIS);
 }
 a:hover{
     font-weight:bolder;
 }
 .web:hover{
     font-weight: 800;
-    color:#4D5AE5;
+    color:var(--IRIS);
 }
 a.navigate:hover{
     font-weight: bolder;
-    color:#4D5AE5;
+    color:var(--IRIS);
 }
 section.container{
     /* margin: 120px 0; */
@@ -109,7 +112,7 @@ li.navi {
 }
 div.card{
     background-color: white;
-    box-shadow: #2E2F42;
+    box-shadow: var(--CLOUD);
 
 }
 a, nav, .information{
@@ -174,7 +177,7 @@ p.abt{
     display: flex;
     justify-content: space-around;
 }
-.soc-link{
+.soc-link,.soc-link-footer{
     background-color: var(--IRIS) ;
     border-radius: 50%;
     padding: 10px;
@@ -185,6 +188,7 @@ h3.customers{
 }
 .list-footer{
     display:flex;
+
     
 }
 .customers-list{
@@ -193,6 +197,22 @@ h3.customers{
     text-align: center;
 }
 .customers-list-items{
-    border: 1px solid black;
+    border: 1px solid var(--LIGHT-SLATE);
     margin: 12px;
+    padding: 16px 32px;
+}
+.list-footer-items{
+    padding: 0 50px;
+}
+.soc-icons-footer{
+    padding-top: 15px;
+}
+p.soc-icons-footer{
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+.soc-link-footer{
+    margin-right: 20px;
+    padding: 15px;
 }

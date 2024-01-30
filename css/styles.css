@@ -216,3 +216,20 @@ p.soc-icons-footer{
     margin-right: 20px;
     padding: 15px;
 }
+.sect-options{
+    display: flex;
+    margin: 50px;
+}
+.sect-options-btn{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--CLOUD);
+    border-color: var(--CLOUD);
+    color: var(--IRIS);
+    font-family: Roboto, sans-serif;
+}
+button:hover, a.sect-options-link:hover{
+    background-color: var(--IRIS);
+    color: var(--CLOUD);
+    font-weight: 1000;
+}

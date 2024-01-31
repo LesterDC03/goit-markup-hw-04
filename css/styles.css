@@ -220,7 +220,7 @@ p.soc-icons-footer{
 .sect-options{
     display: flex;
     margin: 25px 50px;
-    text-align: center;
+    justify-content: center;
 }
 .sect-options-btn{
     margin: 10px;
@@ -240,7 +240,6 @@ button:hover, a.sect-options-link:hover{
     justify-content: center;
     overflow: visible;
     flex-wrap: wrap;
-    gap: 35px;
     margin-bottom: 50px;
 }
 .list-categories-header{

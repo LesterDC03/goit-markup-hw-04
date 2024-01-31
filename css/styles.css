@@ -106,6 +106,7 @@ ul.container1{
     display:flex;
     padding: 20px 100px;
     justify-content: flex-start;
+    border-bottom: 2px solid var(--LIGHT-SLATE);
 }
 li.navi {
     padding-left: 50px;
@@ -218,7 +219,8 @@ p.soc-icons-footer{
 }
 .sect-options{
     display: flex;
-    margin: 50px;
+    margin: 25px 50px;
+    text-align: center;
 }
 .sect-options-btn{
     margin: 10px;
@@ -232,4 +234,18 @@ button:hover, a.sect-options-link:hover{
     background-color: var(--IRIS);
     color: var(--CLOUD);
     font-weight: 1000;
+}
+.list-categories{
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+.list-categories-header{
+    padding: 15px 0;
+}
+.list-categories-items{
+    margin: 20px;
 }
